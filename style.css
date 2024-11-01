@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "D-DIN";
+  font-weight: bolder;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: #000;
+  overflow-x: hidden;
+}
+.main {
+  width: 100%;
+ 
+}
+
+.first {
+  font-family: 'D-DIN';
+  height: 100vh;
+  width: 100%;
+  background-image: url(Starlink_G10_13_Lift_DESKTOP_1_0f32e8aca7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.first h5 {
+  position: absolute;
+  top: 60%;
+  left: 4%;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+}
+.first h1 {
+  position: absolute;
+  top: 64%;
+  left: 4%;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+}
+.first button {
+  position: relative;
+  display: inline-block;
+  border: 2px #fff solid;
+  text-align: center;
+  min-width: 130px;
+  padding: 15px 50px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+  transition: color 0.2s ease-out;
+  background-color: transparent;
+  color: white;
+  top: 75%;
+  left: 4%;
+  font-weight: 600;
+}
+.first iframe {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 7vh;
+  border: none;
+}
+/* Animations */
+
+button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+  transform: scaleY(0);
+  transition: transform 0.2s ease-out;
+  transform-origin: top;
+}
+
+button:hover::after {
+  transform: scaleY(1);
+  transform-origin: bottom;
+}
+
+.nav {
+  height: 90px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  position: fixed;
+  font-family: "D-DIN";
+}
+.nav-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20%;
+  background-image: url(SpaceX-White-Logo.wine.png);
+  background-size: cover;
+  background-position: center;
+}
+.nav-1 img {
+  height: 10vw;
+  width: 100%;
+}
+.nav-2 {
+  font-family: 'D-DIN';
+  font-size: 0.9vw;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  padding-top: 1vw;
+}
+.nav-3 {
+  font-size: 0.9vw;
+  text-transform: uppercase;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10%;
+  padding-top: 1vw;
+}
+.second h5 {
+  position: absolute;
+  top: 160%;
+  left: 4%;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+}
+.second h1 {
+  position: absolute;
+  top: 164%;
+  left: 4%;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+}
+.second button {
+  position: relative;
+  display: inline-block;
+  border: 2px #fff solid;
+  text-align: center;
+  min-width: 130px;
+  padding: 15px 50px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+  transition: color 0.2s ease-out;
+  background-color: transparent;
+  color: white;
+  top: 75%;
+  left: 4%;
+}
+.second iframe {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 190%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 7vh;
+  border: none;
+}
+
+.third {
+  height: 100vh;
+  width: 100%;
+  background-image: url(Crew_8_Return_Desktop_bbf9b2e84a.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.third h5 {
+  position: absolute;
+  top: 253%;
+  left: 4%;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+}
+.third h1 {
+  position: absolute;
+  top: 259%;
+  left: 4%;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+  line-height: 1;
+}
+.third button {
+  position: relative;
+  display: inline-block;
+  border: 2px #fff solid;
+  text-align: center;
+  min-width: 130px;
+  padding: 15px 50px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+  transition: color 0.2s ease-out;
+  background-color: transparent;
+  color: white;
+  top: 75%;
+  left: 4%;
+}
+.third iframe {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 290%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 7vh;
+  border: none;
+}
+.fourth {
+  height: 100vh;
+  width: 100%;
+}
+.fourth video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  align-items: center;
+}
+
+.fourth h5 {
+  position: absolute;
+  top: 353%;
+  left: 4%;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+}
+.fourth h1 {
+  position: absolute;
+  top: 359%;
+  left: 4%;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+  line-height: 1;
+}
+.fourth button {
+  position: absolute;
+  display: inline-block;
+  border: 2px #fff solid;
+  text-align: center;
+  min-width: 130px;
+  padding: 15px 50px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+  transition: color 0.2s ease-out;
+  background-color: transparent;
+  color: white;
+  top: 375%;
+  left: 4%;
+}
+.fourth iframe {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 390%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 7vh;
+  border: none;
+}
+
+.fifth {
+  height: 100vh;
+  width: 100%;
+  background-image: url(Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.fifth h1 {
+  position: absolute;
+  top: 459%;
+  left: 4%;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+  line-height: 1;
+}
+.fifth button {
+  position: absolute;
+  display: inline-block;
+  border: 2px #fff solid;
+  text-align: center;
+  min-width: 130px;
+  padding: 15px 40px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+  transition: color 0.2s ease-out;
+  background-color: transparent;
+  color: white;
+  top: 475%;
+  left: 4%;
+}
+.fifth iframe {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 490%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 7vh;
+  border: none;
+}
+.sixth {
+  height: 100vh;
+  width: 100%;
+  background-image: url(make_life_multiplanetary_desktop_3fa7cff73c.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sixth h1 {
+  position: absolute;
+  top: 559%;
+  left: 4%;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+  line-height: 1;
+}
+.sixth button {
+  position: absolute;
+  display: inline-block;
+  border: 2px #fff solid;
+  text-align: center;
+  min-width: 130px;
+  padding: 15px 40px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+  transition: color 0.2s ease-out;
+  background-color: transparent;
+  color: white;
+  top: 575%;
+  left: 4%;
+}
+.sixth iframe {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 590%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 7vh;
+  border: none;
+}
+footer {
+  height: 10vh;
+  width: 100%;
+  color: #fff;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+footer h6 {
+  color: #87939b;
+}
+footer h5 {
+  transition: all ease-in-out 0.5s;
+}
+footer h5:hover {
+  color: #87939b;
+}
+button:hover {
+  color: #000;
+}
+button {
+  opacity: 1;
+}
+h1 {
+  opacity: 1;
+}
+h5 {
+  opacity: 1;
+}
+@media (max-width: 800px) {
+  #hide {
+    display: none;
+  }
+  .nav-1 {
+    background-position: 10vw;
+    width: 60%;
+    height: 40%;
+    width: 60%;
+  }
+  .nav-3 {
+    width: 40%;
+  }
+  .nav-3 i {
+    position: absolute;
+    left: 90%;
+    font-size: 5vw;
+  }
+
+  .first h5 {
+    position: absolute;
+    top: 75vh;
+    font-size: 15px;
+  }
+  .first h1 {
+    position: absolute;
+    top: 78vh;
+    font-size: 30px;
+  }
+  .first button {
+    position: absolute;
+    top: 83vh;
+    font-size: 10px;
+  }
+  .second {
+    background-position-x: 40%;
+  }
+
+  .second h5 {
+    position: absolute;
+    top: 175vh;
+    font-size: 15px;
+  }
+  .second h1 {
+    position: absolute;
+    top: 178vh;
+    font-size: 30px;
+  }
+  .second button {
+    position: absolute;
+    top: 183vh;
+    font-size: 10px;
+  }
+
+  .third h5 {
+    position: absolute;
+    top: 271vh;
+    font-size: 15px;
+  }
+  .third h1 {
+    position: absolute;
+    top: 274vh;
+    font-size: 30px;
+  }
+  .third button {
+    position: absolute;
+    top: 281vh;
+    font-size: 10px;
+  }
+
+  .fourth h5 {
+    position: absolute;
+    top: 371vh;
+    font-size: 15px;
+  }
+  .fourth h1 {
+    position: absolute;
+    top: 374vh;
+    font-size: 30px;
+  }
+  .fourth button {
+    position: absolute;
+    top: 381vh;
+    font-size: 10px;
+  }
+
+  .fifth {
+    height: 100vh;
+    width: 100%;
+    background-image: url(Evasuit_mobile_Vers3_ae50e33c99.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .fifth h1 {
+    position: absolute;
+    top: 474vh;
+    font-size: 30px;
+  }
+  .fifth button {
+    position: absolute;
+    top: 481vh;
+    font-size: 10px;
+  }
+  .sixth {
+    height: 100vh;
+    width: 100%;
+    background-image: url(make_life_multiplanetary_mobile_270364788f.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .sixth h1 {
+    position: absolute;
+    top: 574vh;
+    font-size: 30px;
+  }
+  .sixth button {
+    position: absolute;
+    top: 581vh;
+    font-size: 10px;
+  }
+}
+
