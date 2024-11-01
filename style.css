@@ -149,6 +149,13 @@ button:hover::after {
   color: #fff;
   font-weight: 400;
 }
+.second {
+  height: 100vh;
+  width: 100%;
+  background-image: url(Starlink_G9_9_OS_56_Streak_Horiz_4144_Desktop_74d5dd2d44.jpg);
+  background-size: cover;
+  background-position: center;
+}
 .second h1 {
   position: absolute;
   top: 164%;
